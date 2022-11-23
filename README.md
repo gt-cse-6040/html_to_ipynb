@@ -7,3 +7,7 @@ This script converts the html rendering of a Jupyter Notebook back into its Jupy
 ```
 python html_to_ipynb.py /path/to/html/input.html /path/to/notebook/output.ipynb
 ```
+
+## Caveats
+
+This script relies on the DOM construction being equivalent to the *default* output from Jupyter server when notebooks are converted to html. It may or may not work with your particular file.
